@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRX TV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="top-bar">
+            <h1>MRX TV</h1>
+            <span class="material-icons search-icon">search</span>
+        </header>
+
+        <main class="content">
+            <div class="video-player-container">
+                <video id="main-video-player" controls autoplay></video>
+            </div>
+
+            <div id="error-message" class="error-message"></div>
+
+            <div class="tab-content active" id="live-events-tab">
+                <h2>Live Events</h2>
+                <div class="live-events-grid"></div>
+            </div>
+
+            <div class="tab-content" id="sports-tab">
+                <h2>Sports Channels</h2>
+                <div class="sports-channels-grid"></div>
+            </div>
+
+            <div class="tab-content" id="categories-tab">
+                <h2>Categories</h2>
+                <div class="categories-grid"></div>
+            </div>
+
+            <div class="tab-content" id="favorites-tab">
+                <h2>My Favorites</h2>
+                <div class="favorites-grid sports-channels-grid"></div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active" data-tab="live-events-tab">
+                <span class="material-icons">event</span>
+                Live Events
+            </a>
+            <a href="#" class="nav-item" data-tab="sports-tab">
+                <span class="material-icons">sports_soccer</span>
+                Sports
+            </a>
+            <a href="#" class="nav-item" data-tab="categories-tab">
+                <span class="material-icons">category</span>
+                Categories
+            </a>
+            <a href="#" class="nav-item" data-tab="favorites-tab">
+                <span class="material-icons">favorite</span>
+                Favorites
+            </a>
+        </nav>
+    </div>
+
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+{
+  "live_events": [
+    {
+      "title": "Bangladesh Premier League",
+      "teams": "DD vs RR",
+      "time": "06:30 PM",
+      "date": "30/07/2025",
+      "logo1": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Dhaka_Dynamites.png/300px-Dhaka_Dynamites.png",
+      "logo2": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Rangpur_Riders_logo.png/300px-Rangpur_Riders_logo.png"
+    },
+    {
+      "title": "ICC T20 World Cup",
+      "teams": "BD vs IND",
+      "time": "08:00 PM",
+      "date": "30/07/2025",
+      "logo1": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bangladesh_Cricket_Board_Logo.svg/1200px-Bangladesh_Cricket_Board_Logo.svg.png",
+      "logo2": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Cricket_India_logo.svg/1200px-Cricket_India_logo.svg.png"
+    },
+    {
+      "title": "Friendly Football Match",
+      "teams": "ARG vs BRA",
+      "time": "09:00 PM",
+      "date": "30/07/2025",
+      "logo1": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Argentina_national_football_team_logo.svg/1200px-Argentina_national_football_team_logo.svg.png",
+      "logo2": "https://upload.wikimedia.org/wikipedia/en/0/05/Brazil_national_football_team_logo.svg"
+    },
+    {
+      "title": "English Premier League",
+      "teams": "LIV vs MNU",
+      "time": "02:00 PM",
+      "date": "01/08/2025",
+      "logo1": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "logo2": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png"
+    }
+  ],
+  "sports_channels": [
+    {
+      "name": "Sony TEN 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Star_Sports_Logo.svg/1200px-Star_Sports_Logo.svg.png",
+      "stream": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "name": "T Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/T_Sports_Logo.png",
+      "stream": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    },
+    {
+      "name": "Gazi TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Gazi_TV_Logo.svg/1200px-Gazi_TV_Logo.svg.png",
+      "stream": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    },
+    {
+      "name": "Rabbitholebd",
+      "logo": "https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/j63n3v066s9y0n2lq0i9",
+      "stream": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    },
+    {
+      "name": "ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ESPN_logo.svg/1200px-ESPN_logo.svg.png",
+      "stream": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+    },
+    {
+      "name": "BBC Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_Sport_logo.svg/1200px-BBC_Sport_logo.svg.png",
+      "stream": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+    }
+  ],
+  "categories": [
+    { "name": "India", "flag": "🇮🇳" },
+    { "name": "Pakistan", "flag": "🇵🇰" },
+    { "name": "Bangla", "flag": "🇧🇩" },
+    { "name": "News", "flag": "📰" },
+    { "name": "Kids", "flag": "🧸" },
+    { "name": "Movies", "flag": "🎬" },
+    { "name": "Music", "flag": "🎵" },
+    { "name": "Documentary", "flag": "🎞️" }
+  ]
+}
+
