@@ -23,9 +23,9 @@ import {
 document.addEventListener('DOMContentLoaded', () => {
     // IMPORTANT: Update these URLs to your GitHub raw files!
     // Your M3U playlist for sports channels
-    const M3U_PLAYLIST_URL = 'https://raw.githubusercontent.com/rsfjbd/Best-IPTV-/refs/heads/main/All_Tv.m3u';
+    const M3U_PLAYLIST_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/myplaylist.m3u';
     // Your static JSON data for live events and categories (if not in M3U)
-    const STATIC_DATA_URL = 'https://raw.githubusercontent.com/rrss1234/Jison/refs/heads/main/data.json';
+    const STATIC_DATA_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/data.json';
 
 
     // --- DOM Elements ---
